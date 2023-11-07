@@ -1,4 +1,4 @@
-vCard - Personal Portfolio
+vCard - Personal Projects
 
 # sidebar
 
@@ -24,7 +24,7 @@ Rajkot, Gujarat, India
 
 About
 Resume
-Portfolio
+Projects
 Blog
 Contact
 
@@ -132,9 +132,9 @@ WordPress
 
 
 
-# portfolio
+# projects
 
-Portfolio
+Projects
 
 All
 Web design
