@@ -1778,6 +1778,18 @@ textarea.form-input::-webkit-resizer {
         margin-left: auto;
     }
 
+    .skills-item {
+        width: 50%;
+        box-sizing: border-box;
+        padding: 0px 15px;
+    }
+
+    .skills-list {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
 }
 
 
@@ -1891,6 +1903,17 @@ textarea.form-input::-webkit-resizer {
         height: 230px;
     }
 
+    .skills-item {
+        width: 33%;
+        box-sizing: border-box;
+        padding: 0px 15px;
+    }
+
+    .skills-list {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 
@@ -2032,8 +2055,39 @@ textarea.form-input::-webkit-resizer {
         max-width: 700px;
     }
 
-    .cursor_pointer {
-        cursor: pointer;
+    .skills-item {
+        width: 33%;
+        box-sizing: border-box;
+        padding: 0px 15px;
     }
 
+    .skills-list {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+/* Custom CSS  */
+.cursor_pointer {
+    cursor: pointer;
+}
+
+.bullet-point {
+    list-style-type: none;
+    position: relative;
+    padding-left: 20px;
+}
+
+.bullet-point::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    height: 6px;
+    width: 6px;
+    background: var(--text-gradient-yellow);
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px var(--jet);
 }
