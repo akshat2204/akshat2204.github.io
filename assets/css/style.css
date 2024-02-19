@@ -2091,3 +2091,7 @@ textarea.form-input::-webkit-resizer {
     border-radius: 50%;
     box-shadow: 0 0 0 4px var(--jet);
 }
+
+.data-testimonials-time{
+    display: none;
+}
